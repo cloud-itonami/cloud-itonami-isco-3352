@@ -104,7 +104,7 @@
     9. :op :coordinate-supply-order above `supply-order-cost-threshold`.
    10. low confidence (< `confidence-floor`)."
   (:require [taxexcise.store :as store]
-            [clojure.string :as str]))
+            [kotoba.lang.text :as str]))
 
 (def confidence-floor 0.6)
 (def supply-order-cost-threshold 2000)
@@ -136,7 +136,7 @@
   narrates performing a finalization/execution action this actor
   structurally cannot perform."
   [proposal]
-  (let [texts (map str/lower-case (proposal-text-fields proposal))]
+  (let [texts (map str/lower (proposal-text-fields proposal))]
     (boolean (some (fn [phrase] (some #(str/includes? % phrase) texts))
                    enforcement-scope-phrases))))
 
