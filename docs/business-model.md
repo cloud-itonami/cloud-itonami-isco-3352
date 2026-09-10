@@ -17,7 +17,7 @@ work around that authority** — filing-record intake, audit-appointment
 scheduling, office-supply coordination, and surfacing compliance
 observations for human review. It structurally excludes assessment,
 penalty and collection decisions; see the README's "No-enforcement-
-authority guarantee" and [`taxexcise.governor`](../src/taxexcise/governor.cljc).
+authority guarantee" and [`taxexcise.governor`](../src/taxexcise/governor.kotoba).
 
 ## Customer
 
