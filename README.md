@@ -49,7 +49,7 @@ gated:
 (ADR-2607121000): `:intake -> :advise -> :govern -> :decide -+->
 :commit (:ok?) +-> :request-approval (:escalate?, human-in-the-loop
 interrupt) +-> :hold (:hard?)`. 24 tests / 54 assertions green
-(`clojure -M:test`). HARD invariants (always hold,
+(`kbb -M:test`). HARD invariants (always hold,
 permanent, un-overridable): closed op-allowlist, no-actuation
 (`:effect` must be `:propose`), independently verified/registered
 filer or office provenance before any action, an attached
