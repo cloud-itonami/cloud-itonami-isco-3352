@@ -28,7 +28,7 @@ behavior.
   assessment"), never bare nouns ("assessment") — bare nouns
   false-positive on legitimate descriptive text (see
   `default-mock-advisor-proposals-never-self-trip` in
-  `test/taxexcise/governor_test.clj`).
+  `test/taxexcise/governor_test.cljk`).
 - Document any new business-model or operator assumption in `docs/`.
 
 ## Pull Requests

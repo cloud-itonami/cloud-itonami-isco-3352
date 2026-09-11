@@ -28,7 +28,7 @@
 - ordering a collection or lien action
 
 These are structurally absent from this actor's op-allowlist (see
-[`taxexcise.governor`](../src/taxexcise/governor.cljc)). If your
+[`taxexcise.governor`](../src/taxexcise/governor.cljk)). If your
 deployment needs any of the above, that authority belongs to a human
 tax official operating outside this actor, using this actor's
 `:flag-compliance-concern` output only as an input to their own
