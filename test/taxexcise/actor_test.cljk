@@ -1,5 +1,5 @@
 (ns taxexcise.actor-test
-  (:require [clojure.test :refer [deftest is testing]]
+  (:require [kotoba.test :refer [deftest is testing]]
             [taxexcise.actor :as actor]
             [taxexcise.advisor :as advisor]
             [taxexcise.store :as store]))

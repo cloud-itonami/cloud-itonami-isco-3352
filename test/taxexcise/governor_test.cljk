@@ -1,5 +1,5 @@
 (ns taxexcise.governor-test
-  (:require [clojure.test :refer [deftest is testing]]
+  (:require [kotoba.test :refer [deftest is testing]]
             [taxexcise.store :as store]
             [taxexcise.advisor :as advisor]
             [taxexcise.governor :as governor]))
