@@ -1,7 +1,7 @@
 (ns taxexcise.actor
   "TaxExciseActor — the ISCO-08 3352 Government Tax and Excise
   Officials documentation/logistics-coordination actor as a
-  `langgraph.graph/state-graph` (ADR-2607121000 / CLAUDE.md Actors
+  `langgraph.graph/state-graph` (ADR-2607121000 / AGENTS.md Actors
   section). One graph run = one filing-documentation or logistics
   operation request (intake -> advise -> govern -> decide ->
   commit/hold, with a human-approval interrupt for escalated

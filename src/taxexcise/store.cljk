@@ -1,7 +1,7 @@
 (ns taxexcise.store
   "SSoT for the ISCO-08 3352 Government Tax and Excise Officials
   documentation/logistics-coordination actor (itonami actor pattern,
-  ADR-2607121000 / CLAUDE.md Actors section; README's 'Robotics
+  ADR-2607121000 / AGENTS.md Actors section; README's 'Robotics
   premise' — a filing-intake and archival robot performs return
   receipt logging, audit-appointment scheduling and office-supply
   coordination under this advisor/governor pair, which never
